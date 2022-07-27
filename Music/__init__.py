@@ -12,7 +12,7 @@ logging.basicConfig(format='[%(levelname) 5s/%(asctime)s] %(name)s: %(message)s'
                     level=logging.INFO)
 
 
-from Config import Config
+from Music import Music
 BOT_USERNAME = Config.BOT_USERNAME
 
 bot = TelegramClient('music', api_id=Config.API_ID, api_hash=Config.API_HASH)
